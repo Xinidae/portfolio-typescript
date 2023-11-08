@@ -4,6 +4,7 @@ import { IconButton, Tooltip } from "@mui/material";
 // mui - icons
 import HomeIcon from "@mui/icons-material/Home";
 import PersonIcon from "@mui/icons-material/Person";
+import TimelineIcon from "@mui/icons-material/Timeline";
 import AppsIcon from "@mui/icons-material/Apps";
 import MailIcon from "@mui/icons-material/Mail";
 
@@ -28,6 +29,14 @@ const Menu = () => {
         <Tooltip title="About" placement="top" arrow>
           <IconButton className="group">
             <PersonIcon className="text-white group-hover:text-secondary" />
+          </IconButton>
+        </Tooltip>
+      </Link>
+
+      <Link to="timeline" smooth>
+        <Tooltip title="Timeline" placement="top" arrow>
+          <IconButton className="group">
+            <TimelineIcon className="text-white group-hover:text-secondary" />
           </IconButton>
         </Tooltip>
       </Link>

@@ -1,0 +1,311 @@
+/* Add your CSS rules here */
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    background: linear-gradient(to bottom, #00b3ff30, #00eeff51);
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000000;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+section  {
+    border: 2px solid #00ff9d;
+    border-radius: 100px / 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #006eff78;
+    padding-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007da0d5;
+  color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 20px;
+    background: linear-gradient(to right, #0097b2d9, #7ed95783);
+
+}
+
+.hero-text {
+    width: 50%;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #050404;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #0a0000;
+    margin-top: 20px;
+}
+
+.hero-text button {
+    display: block;
+    padding: 15px 25px;
+    background-color: #0033ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #0033ff67;
+}
+
+.hero-image {
+    height: auto;
+    max-width: 50%;
+}
+
+.project-timeline{
+    background: linear-gradient(to right, #0097b2d9, #7ed95783)}
+
+    
+.year {
+    color: black;
+    font-size: 100px;
+    font-weight: 700;
+    padding-left: 175px;
+}
+.quarter {
+    display: flex;
+    overflow: hidden;
+    max-width: 550px;
+  }
+
+.break {
+    flex: 1;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px; /* Move the text 5px to the right */
+  }
+
+
+.pill-bar {
+    display: flex;
+    border-radius: 500px;
+    border: 3px solid black;
+    background: linear-gradient(to right, #0074e0, #00a4d4);
+    color: white;
+    overflow: hidden;
+    max-width: 575px;
+  }
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-right:2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.column:last-child {
+    border-right: none;
+  }
+
+.project-timeline, .development-milestones, .development-methodology, .outsourced-tasks, .workload-allocation, .funding-methods, .customer-acquisition, .roadmap, .funds-allocation {
+    padding: 20px;
+}
+
+.project-timeline h2, .development-milestones h2, .development-methodology h2, .outsourced-tasks h2, .workload-allocation h2, .funding-methods h2, .customer-acquisition h2, .roadmap h2, .funds-allocation h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.project-timeline p, .development-methodology p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.development-milestones {
+    background: linear-gradient(to left, #0097b2d9, #7ed95783);
+
+}
+
+.development-methodology{
+    background: linear-gradient(to right, #0097b2d9, #7ed95783);
+}
+.development-milestones ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.development-milestones li {
+    margin-bottom: 10px;
+}
+
+.company-milestones{
+    background: linear-gradient(to left, #0097b2d9, #7ed95783);
+
+}
+.company-milestones table {
+    width:30%;
+    text-align: left;
+}
+
+.outsourced-tasks table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.outsourced-tasks th, .outsourced-tasks td {
+    border: 1px solid #f9f9f9;
+    padding: 10px;
+    text-align: left;
+}
+.workload-allocation{
+    background: linear-gradient(to right, #0097b2d9, #7ed95783);
+}
+
+.funding-methods{
+    background: linear-gradient(to left, #0097b2d9, #7ed95783);
+}
+
+.customer-acquisition{
+    background: linear-gradient(to right, #0097b2d9, #7ed95783);
+}
+
+.roadmap{
+    background: linear-gradient(to left, #0097b2d9, #7ed95783);
+    
+}
+
+.funds-allocation{
+    background: linear-gradient(to right, #0097b2d9, #7ed95783);
+
+}
+.outsourced-tasks th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.funds-allocation {
+    background-color: #f9f9f9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.funds-allocation h2 {
+    color: #000000;
+    text-align: center;
+    margin-top: 0;
+}
+
+.funds-allocation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.funds-allocation li {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.funds-allocation li span {
+    font-size: 18px;
+    color: #000000;
+}
+
+.footer {
+    background-color: #000000e8;
+    padding: 10px;
+}
+
+.footer p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}

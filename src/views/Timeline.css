@@ -1,0 +1,67 @@
+
+body {
+  background: #00ADB5;
+
+}
+
+.timeline {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
+}
+
+.timelinecomponent {
+  margin: 0 20px 20px 20px;
+}
+
+.timelinecomponent--bg {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+
+.timelinecomponent--bottom {
+  margin-bottom: 0;
+}
+
+.timelinemiddle {
+  position: relative;
+  background: #ffffff;
+}
+
+.timeline__point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+/ LEAVE TILL LAST */
+.timelinepoint--bottom {
+  top: initial;
+  bottom: 0;
+}
+
+.timelinedate--right {
+  text-align: right;
+}
+
+.timelinetitle {
+  margin: 0;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.timelineparagraph {
+  line-height: 1.5;
+} 

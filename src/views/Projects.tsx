@@ -17,6 +17,8 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/variants";
 import { transition } from "../utils/transition";
 
+
+
 type Category = "uiUx" | "web";
 
 const Projects = () => {

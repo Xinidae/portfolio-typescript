@@ -38,16 +38,13 @@ const About = () => {
               className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
               font-bold text-textPrimary"
             >
-              About <span className="text-secondary"> me</span>
+              About <span className="text-secondary"> us</span>
             </h2>
           </Reveal>
 
           <Reveal>
             <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis incidunt quis praesentium voluptates et cupiditate
-              minus rem. Voluptatibus ullam beatae expedita voluptatum error,
-              voluptate deserunt impedit similique fuga recusandae sit.
+            We create tools to empower content creators. Save time and money managing your content with Xoaesis. Our intuitive web app lets you manage your content, analytics, and more.
             </p>
           </Reveal>
 
